@@ -1,0 +1,21 @@
+git init
+<html>
+<head>
+<script type="text/javascript">
+function area()
+{
+var a=document.myform.length.value;
+var b=document.myform.breadth.value;
+var c=a*b;
+alert("the area is "+c);
+}
+</script>
+</head>
+<body align="center">
+<form name="myform" onsubmit=area()>
+<b>Enter the length     </b><input type="text" name="length"><br>
+<b>Enter the breadth </b><input type="text" name="breadth"><br>
+<input type="submit" >
+</form>
+</body>
+</html>
