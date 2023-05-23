@@ -11,17 +11,9 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <script type="text/javascript">
-            var mysql=require('mysql');
-            var con=mysql.createConnection({host:"localhost",user:"root",password:"1732"});
-            con.connet(function(err){
-            if (err) throw err;
-            console.log("Connected");
-            con.query("CREATE DATABASE MYb",function(err,result){
-                if(err) throw err;
-                console.log("Database created");
-            });
-        });
-        </script>
+        <form>
+            <input type=button onclicked='index.php'>
+            
+        </form>
     </body>
 </html>
